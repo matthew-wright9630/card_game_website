@@ -1,0 +1,9 @@
+.page {
+    margin: 0;
+    padding: 0;
+}
+
+.page__section {
+    margin: 200 auto;
+    max-width: 1000px;
+}
