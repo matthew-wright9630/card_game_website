@@ -1,0 +1,30 @@
+.deck {
+
+}
+
+.deck__card-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    width: 95vw;
+}
+
+.deck__card {
+    width: 222.78;
+    list-style-type: none;
+    gap: 5px;
+}
+
+.deck__card:before {
+    position: absolute;
+  content: '';
+  background-image: url("/images/SVG-cards-1.3/vecteezy_potrait-red-background-with-frame_14067840.jpg");
+  background-size: cover;
+
+
+
+    /* background-image: url("/images/SVG-cards-1.3/vecteezy_potrait-red-background-with-frame_14067840.jpg"); */
+}
